@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0.3in"
+        android:background="#252525"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/Tombol_Clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#252525"
+            android:layout_marginStart="13dp"
+            tools:src="@drawable/clear_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:text="Tambah Catatan"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="799dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="46dp"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editTextNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="#232323"
+            android:gravity="top"
+            android:hint="Tambahkan catatan pembelian produk..."
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:maxLines="5"
+            tools:textColorHint="#676767" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonSaveNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tambahkan Catatan"
+            android:backgroundTint="#24BC3D"
+            android:textColor="@color/black"
+            app:cornerRadius="13dp" /> <!-- Radius sudut tombol -->
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
