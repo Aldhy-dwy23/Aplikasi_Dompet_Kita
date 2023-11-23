@@ -12,8 +12,11 @@
         <!-- status bar color -->
         <item name="android:statusBarColor">@color/My_primary</item>
 
+    </style>
 
-
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
     </style>
 
     <style name="Theme.DompetKita" parent="Base.Theme.DompetKita" />

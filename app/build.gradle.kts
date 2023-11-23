@@ -4,17 +4,22 @@ plugins {
 
 android {
     namespace = "com.example.dompetkita"
-    compileSdk = 33
+    compileSdk = 25
 
     defaultConfig {
         applicationId = "com.example.dompetkita"
-        minSdk = 26
-        targetSdk = 33
+        minSdk = 25
+        targetSdk = 25
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
+
 
     buildTypes {
         release {
