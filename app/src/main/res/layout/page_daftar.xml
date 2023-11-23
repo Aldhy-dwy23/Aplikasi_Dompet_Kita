@@ -118,11 +118,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="LOGIN"
-                    android:textStyle="bold"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
-                    android:clickable="true"/>
+                    android:clickable="true"
+                    android:minWidth="48dp"
+                    android:minHeight="48dp"
+                    android:text="LOGIN"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
 
 
             </RelativeLayout>
