@@ -27,15 +27,14 @@
 
         <com.google.android.material.search.SearchBar
             android:layout_width="310dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_marginStart="16dp"
             android:backgroundTint="#FFFFFF"
             android:gravity="center_vertical"
             android:text="Ketik nama kategori"
-            android:textSize="24dp"
-            android:textStyle="bold"
-            />
+            android:textSize="48dp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>

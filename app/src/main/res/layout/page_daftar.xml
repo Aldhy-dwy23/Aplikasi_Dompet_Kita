@@ -124,7 +124,6 @@
                     android:minWidth="48dp"
                     android:minHeight="48dp"
                     android:text="LOGIN"
-                    android:textSize="15dp"
                     android:textStyle="bold" />
 
 
